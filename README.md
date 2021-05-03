@@ -5,7 +5,7 @@ Deploy: [https://birucan.github.io/ReactWeather/](https://birucan.github.io/Reac
 
 ## Installation
 
-to run locally run the following coming in this cloned repository
+to run locally run the following code in this cloned repository
 
 ```bash
 npm start
