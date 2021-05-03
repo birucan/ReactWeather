@@ -130,7 +130,7 @@ function Forecast({ submitedState, city, zip, lat, lon, searchState }) {
                 Current Weather for {fetchedData.city.name},{" "}
                 {fetchedData.city.country}
               </Typography>
-              <Grid item xs={2.4}>
+              <Grid item xs={12}>
                 <Card>
                   <Card>
                     <img
@@ -233,7 +233,7 @@ function Forecast({ submitedState, city, zip, lat, lon, searchState }) {
               </FormControl>
             </Grid>
 
-            <Grid item xs={2.4}>
+            <Grid item>
               <Card>
                 <Typography
                   gutterBottom
@@ -308,7 +308,7 @@ function Forecast({ submitedState, city, zip, lat, lon, searchState }) {
               </Card>
             </Grid>
 
-            <Grid item xs={2.4}>
+            <Grid item >
               <Card>
                 <Typography
                   gutterBottom
@@ -383,7 +383,7 @@ function Forecast({ submitedState, city, zip, lat, lon, searchState }) {
               </Card>
             </Grid>
 
-            <Grid item xs={2.4}>
+            <Grid item >
               <Card>
                 <Typography
                   gutterBottom
@@ -458,7 +458,7 @@ function Forecast({ submitedState, city, zip, lat, lon, searchState }) {
               </Card>
             </Grid>
 
-            <Grid item xs={2.4}>
+            <Grid item >
               <Card>
                 <Typography
                   gutterBottom
@@ -533,7 +533,7 @@ function Forecast({ submitedState, city, zip, lat, lon, searchState }) {
               </Card>
             </Grid>
 
-            <Grid item xs={2.4}>
+            <Grid item >
               <Card>
                 <Typography
                   gutterBottom
